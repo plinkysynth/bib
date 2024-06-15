@@ -1,4 +1,4 @@
-Bib - the build doc of destiny
+Bib - the ~~build~~ bibld guide of destiny
 ==
 
 Hello! Welcome to the Bib build guide.
@@ -81,9 +81,9 @@ Take a moment to marvel at your achievement! I mean, why not loosely screw the n
 ![Parts](images/IMG_6328.jpeg)
 
 ### OK, NOW you can solder the hardware
-(TODO: take a picture) At this point you should solder all of the pins poking through the bottom of the board. Don't forget any! The 3 pins of the main knob, and the pins of the thonkiconn that straddle the 6 pin SMD header, are especially hidden. I'll mark them in yellow boxes once I take a photo to replace this picture of a kitten:
+(TODO: take a picture) At this point you should solder all of the pins poking through the bottom of the board. Don't forget any! The 3 pins of the main knob, and the pins of the thonkiconn that straddle the 6 pin SMD header, are especially hidden. They're all marked with yellow arrows in this picture:
 
-![Not Kittens](images/kitten.jpeg)
+![Not Kittens](images/IMG_6351.jpeg)
 
 ### Hardware Victory
 My goodness! That was it! Just plug the digital board back into your freshly soldered analog board, forming a 3 level club sandwich of Bibness. Make sure you get it the right way around - as shown in the picture. If things are a little wonky, that's ok - look at mine! Wonky, but it works. That's the Bib way.
