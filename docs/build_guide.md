@@ -45,9 +45,9 @@ Connect the 12 pin pieces with the corresponding sockets, and push the 5 pin pie
 
 ### Soldering the eurorack power pins
 
-Now, with the cable still attached, put the 5x2 power pins into the back of the digital board, where it says 'POWER EITHER WAY'. Turn it over, and solder the 10 pins. Again, be careful to avoid melting or disturbing the tiny pre-soldered parts, and be sure to heat both the pad and the pin before adding solder. These pins are actually the hardest to solder in the entire project, because they are connected to lots of copper inside the board, and will 'suck up' a lot of heat. Don't be afraid to really heat them up, to allow the solder to form a nice joint. Don't just add lots of solder! If you bridge some of the central 6 pins (ie the center 2x3) that's not the end of the world, as they are all 'ground' - but it's ugly! :) It will work though. The 2 pins on each end are +12 and -12, so you dont want to bridge them to the center, lest you short out your eurorack power supply. Take your time, it'll be ok!  TODO - non blurry photo
+Now, with the cable still attached, put the 5x2 power pins into the back of the digital board, where it says 'POWER EITHER WAY'. Turn it over, and solder the 10 pins. Again, be careful to avoid melting or disturbing the tiny pre-soldered parts, and be sure to heat both the pad and the pin before adding solder. These pins are actually the hardest to solder in the entire project, because they are connected to lots of copper inside the board, and will 'suck up' a lot of heat. Don't be afraid to really heat them up, to allow the solder to form a nice joint. Don't just add lots of solder! If you bridge some of the central 6 pins (ie the center 2x3) that's not the end of the world, as they are all 'ground' - but it's ugly! :) It will work though. The 2 pins on each end are +12 and -12, so you dont want to bridge them to the center, lest you short out your eurorack power supply. Take your time, it'll be ok!  
 
-![Parts](images/IMG_6315.jpeg)
+![Parts](images/IMG_6346.jpeg)
 
 ### Making the sandwich: 12 pin headers
 
