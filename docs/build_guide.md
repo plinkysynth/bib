@@ -70,21 +70,23 @@ Ok let's prepare the pots (aka knobs)! (TODO: take non blurry photos, sorry). Bo
 </p>
 
 ### Placing the hardware (but not soldering it) 
-OK Now we're ready to put all the pots and sockets into Bib! prise the sandwich gently apart, and put the digital half aside - it's finished actually! (Feel free to have a celebratory cup of tea). Freshly revitalised, **remove the nuts and washers** from the knobs, then place them along with the 5 Thonk jack sockets, and don't forget the little 4 pin header - as shown below. **DONT SOLDER ANYTHING YET!** Just plop 'em in place, as shown. The stereo pairs of thonkiconns actually share a single hole for the 'ground' pins, so it can be a bit fiddly, but you can do it! I believe in you!
+OK Now we're ready to put all the pots and sockets into Bib! prise the sandwich gently apart, if you didn't already, and put the digital half aside - it's finished actually! (Feel free to have a celebratory cup of tea). Freshly revitalised, **remove the nuts and washers** from the knobs, then place them along with the 5 Thonk jack sockets, and don't forget the little 4 pin header - as shown below. **DONT SOLDER ANYTHING YET!** Just plop 'em in place. The stereo pairs of thonkiconns actually share a single hole for the 'ground' pins, so it can be a bit fiddly, but you can do it! I believe in you!
 
 ![Parts](images/IMG_6326.jpeg)
 
-Why not solder them? Well, now is the exciting moment we get to place the front panel over the top of everything. The pots and thonkis should all go through the holes (did you remember to remove the pot nuts? good), perhaps after a little persuasion (good thing you didn't solder them right!) and then marvel at your achievement! Why not loosley screw the nuts back on top of the panel to the pots and thonkis - it's really starting to look like a music thing now!
+Why not solder them? You'll see! Now is the exciting moment we get to place the front panel over the top of everything. The pots and thonkis should all go through the holes (did you remember to remove the pot nuts? good), perhaps after a little wiggling and persuasion (good thing you didn't solder them right!). The 4 pin header and the socket you soldered earlier should mesh together beautifully inside the sandwich. 
+
+Take a moment to marvel at your achievement! I mean, why not loosley screw the nuts back on top of the panel to the pots and thonkis - it's really starting to look like a music thing now!
 
 ![Parts](images/IMG_6328.jpeg)
 
-### OK Now you can solder the hardware
+### OK, NOW you can solder the hardware
 (TODO: take a picture) At this point you should solder all of the pins poking through the bottom of the board. Don't forget any! The 3 pins of the main knob, and the pins of the thonkiconn that straddle the 6 pin SMD header, are especially hidden. I'll mark them in yellow boxes once I take a photo to replace this picture of a kitten:
 
 ![Not Kittens](images/kitten.webp)
 
 ### Hardware Victory
-My goodness! That was it! Just plug the digital board back into your freshly soldered analog board, forming a 3 level club sandwich of Bibness. Make sure you get it the right way around - as shown in the picture.
+My goodness! That was it! Just plug the digital board back into your freshly soldered analog board, forming a 3 level club sandwich of Bibness. Make sure you get it the right way around - as shown in the picture. If things are a little wonky, that's ok - look at mine! Wonky, but it works. That's the Bib way.
 
 ![Parts](images/IMG_6329.jpeg)
 ![Parts](images/IMG_6330.jpeg)
@@ -95,7 +97,12 @@ All that remains is to tighten the nuts, push the knobs onto the pot shafts, and
 
 ### The Software Adventure
 
-Use a USB-C cable (not included) to plug your computer into Bib. You do **not** need Bib to be powered from eurorack for this step. Bib should show up as a USB drive called RPI-RP2 (on mac, you may find it under /Volumes/RPI-RP2). If it does not, try disconnecting the USB cable, holding down the *tiny* button on the bottom board on the side opposite to the USB connector, while reconnecting the cable - then release the button. If it *still* doesn't show up, make sure your cable has data lines (and isn't just for charging). And if that's definitely ok - maybe check your soldering? 
-Assuming the drive shows up, drag and drop the `bib_xxx.uf2` (where xxx is a version number) onto the drive. It should flash, and after a second, the main knob will flash white and then glow a dim red. That's a good sign! that means your bib is working! If you want to fiddle right away, feel free to twist the knobs - the light should change brightness as you twist to reflect the position of the knob, and then revert to a dim glow when you release it. Pressing on the touch strip in each of the 4 zones marked `Drive`, `Echo`, `Verb`, `Mix` should cause the knob color to change Red/Green/Blue/White. 
+Use a USB-C cable (not included) to plug your computer into Bib. You do **not** need Bib to be powered from eurorack for this step. 
 
-Assuming all seems well, disconnect it from your PC, carefully connect it to your eurorack system (the power cable can be fitted either way). Happy bibbing!
+Bib should show up as a USB drive called `RPI-RP2` (on mac, you may find it under `/Volumes/RPI-RP2`). If it does not, try disconnecting the USB cable, holding down the *tiny* button on the digital board, just  opposite to the USB connector, while reconnecting the cable - then release the button. If it *still* doesn't show up, make sure your cable has data lines (and isn't just for charging). And if that's definitely ok - maybe check your soldering? 
+
+Assuming the drive shows up, drag and drop the `bib_xxx.uf2` (where xxx is a version number) onto the drive. It should upload the software, and after a second, the main knob will flash white and then glow a dim red. That's a good sign! that means your Bib is working! 
+
+If you want to fiddle right away, feel free to twist the knobs - the light should change brightness as you twist to reflect the position of the knob, and then revert to a dim glow when you release it. Pressing on the touch strip in each of the 4 zones marked `Drive`, `Echo`, `Verb`, `Mix` should cause the knob color to change Red/Green/Blue/White. If the touch is unresponsive, perhaps check your soldering - esepcially around the 4 pin socket and header on the front panel
+
+Assuming all seems well, disconnect it from your PC, carefully connect it to your eurorack system (the power cable can be fitted either way), and -  *Happy bibbing*!
