@@ -81,7 +81,7 @@ Take a moment to marvel at your achievement! I mean, why not loosely screw the n
 ![Parts](images/IMG_6328.jpeg)
 
 ### OK, NOW you can solder the hardware
-(TODO: take a picture) At this point you should solder all of the pins poking through the bottom of the board. Don't forget any! The 3 pins of the main knob, and the pins of the thonkiconn that straddle the 6 pin SMD header, are especially hidden. They're all marked with yellow arrows in this picture:
+At this point you should solder all of the pins poking through the bottom of the board. Don't forget any! The 3 pins of the main knob, and the pins of the thonkiconn that straddle the 6 pin SMD header, are especially hidden. They're all marked with yellow arrows in this picture:
 
 ![Not Kittens](images/IMG_6351.jpeg)
 
