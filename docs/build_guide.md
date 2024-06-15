@@ -76,14 +76,14 @@ OK Now we're ready to put all the pots and sockets into Bib! prise the sandwich 
 
 Why not solder them? You'll see! Now is the exciting moment we get to place the front panel over the top of everything. The pots and thonkis should all go through the holes (did you remember to remove the pot nuts? good), perhaps after a little wiggling and persuasion (good thing you didn't solder them right!). The 4 pin header and the socket you soldered earlier should mesh together beautifully inside the sandwich. 
 
-Take a moment to marvel at your achievement! I mean, why not loosley screw the nuts back on top of the panel to the pots and thonkis - it's really starting to look like a music thing now!
+Take a moment to marvel at your achievement! I mean, why not loosely screw the nuts back on top of the panel to the pots and thonkis - it's really starting to look like a music thing now!
 
 ![Parts](images/IMG_6328.jpeg)
 
 ### OK, NOW you can solder the hardware
 (TODO: take a picture) At this point you should solder all of the pins poking through the bottom of the board. Don't forget any! The 3 pins of the main knob, and the pins of the thonkiconn that straddle the 6 pin SMD header, are especially hidden. I'll mark them in yellow boxes once I take a photo to replace this picture of a kitten:
 
-![Not Kittens](images/kitten.webp)
+![Not Kittens](images/kitten.jpeg)
 
 ### Hardware Victory
 My goodness! That was it! Just plug the digital board back into your freshly soldered analog board, forming a 3 level club sandwich of Bibness. Make sure you get it the right way around - as shown in the picture. If things are a little wonky, that's ok - look at mine! Wonky, but it works. That's the Bib way.
