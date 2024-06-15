@@ -45,19 +45,19 @@ Connect the 12 pin pieces with the corresponding sockets, and push the 5 pin pie
 
 ### Soldering the eurorack power pins
 
-Now, with the cable still attached, put the 5x2 power pins into the back of the digital board, where it says 'POWER EITHER WAY'. Turn it over, and solder the 10 pins. Again, be careful to avoid melting or disturbing the tiny pre-soldered parts, and be sure to heat both the pad and the pin before adding solder. These pins are actually the hardest to solder in the entire project, because they are connected to lots of copper inside the board, and will 'suck up' a lot of heat. dont be afraid to really heat them up, to allow the solder to form a nice joint. Don't just add lots of solder! If you bridge some of the central 6 pins (ie the center 2x3) that's not the end of the world, as they are all 'ground' - but it's ugly! :) It will work though. The 2 pins on each end are +12 and -12, so you dont want to bridge them to the center, lest you short out your eurorack power supply. Take your time, it'll be ok! 
+Now, with the cable still attached, put the 5x2 power pins into the back of the digital board, where it says 'POWER EITHER WAY'. Turn it over, and solder the 10 pins. Again, be careful to avoid melting or disturbing the tiny pre-soldered parts, and be sure to heat both the pad and the pin before adding solder. These pins are actually the hardest to solder in the entire project, because they are connected to lots of copper inside the board, and will 'suck up' a lot of heat. dont be afraid to really heat them up, to allow the solder to form a nice joint. Don't just add lots of solder! If you bridge some of the central 6 pins (ie the center 2x3) that's not the end of the world, as they are all 'ground' - but it's ugly! :) It will work though. The 2 pins on each end are +12 and -12, so you dont want to bridge them to the center, lest you short out your eurorack power supply. Take your time, it'll be ok!  TODO - non blurry photo
 
 ![Parts](images/IMG_6315.jpeg)
 
 ### Making the sandwich: 12 pin headers
 
-Ok now pop the 12 pin header+pin combos you made into both boards. The pre-soldered components go on the inside of the sandwich. Turn the board over to see the back with the Power pins you just doldered, and solder the two rows of 12 header pins. I tend to solder a *single* pin first, and make sure it is all nice and square and flush, before soldering the rest. That's a good trick with multipin parts in general - do one pin, line it up, then do the rest when you're happy. It's much easier to align a single pin, than it is to fix things when you've soldered 12 wonky. Ask me how I know...
+Ok now pop the 12 pin header+pin combos you made into both boards - we are joining them together in a kind of Bib-ish silicon sandwich. The pre-soldered components go on the inside of the sandwich, you see. Turn the board over to see the back with the Power pins you just doldered, and solder the two rows of 12 header pins, as shown below. I tend to solder a *single* pin first, and make sure it is all nice and square and flush, before soldering the rest. That's a good trick with multipin parts in general - do one pin, line it up, then do the rest when you're happy. It's much easier to align a single pin, than it is to fix things when you've soldered 12 wonky. Ask me how I know... Oh, while you're here, maybe melt a bit of solder into the USB-C connector's holes, if they are not already full. It just adds a bit of mechanical rigidity.
 
 ![Parts](images/IMG_6318.jpeg)
 
 OK! Flip Bib over but **DONT SOLDER THE OTHER SIDE YET**. First we need to trim the pins flush in the hilighted areas below. Use side cutters and cut them flush to the board - the pin is still inside the hole, but shouldn't poke up. PLEASE WEAR EYE PROTECTION and make sure no children/pets are near by. the little bits of metal tend to 'ping' off. Be careful.
 
-Why trim them? It's to avoid the pins shorting out on the underside of the knobs we'll add later. 1U is cramped! Once you've trimmed them, go ahead and solder those pins too. Your sandwich should be nice and solid now!
+Why trim them? It's to avoid the pins shorting out on the underside of the knobs we'll add later. 1U is cramped! Once you've trimmed them, go ahead and solder all 24 pins. Your sandwich should be nice and solid now! To prove it to yourself, feel free to gently pull it apart, setting the digital board aside for a bit.
 
 ![Parts](images/IMG_6319.jpeg)
 
