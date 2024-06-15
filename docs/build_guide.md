@@ -12,7 +12,7 @@ Below are most of the parts of the Bib kit, with the exception of the Eurorack p
 
 ### The headers - a nice warmup
 
-Let's get the two 'SMD' headers out of the way - a small grey 4 pin socket for the front panel, and a 2x3 pin header that you can use to connect line level stereo input and headphone output to the quarter inch TRS jacks on an intellijel palette case, for example. 
+Let's get the two 'SMD' headers out of the way - the small grey 4 pin socket for the front panel which I missed out of the photo above, and a 2x3 pin header that you can use to connect line level stereo input and headphone output to the quarter inch TRS jacks on an intellijel palette case, for example. 
 
 Put a small pillow of solder on a *single* pin on each footprint - one on the front panel, one on the main circuit board, as hilighted in yellow below. Again - just a single pin each for now!
 
@@ -62,11 +62,11 @@ Why trim them? It's to avoid the pins shorting out on the underside of the knobs
 ![Parts](images/IMG_6319.jpeg)
 
 ### Trimming the pots
-Ok let's prepare the pots (aka knobs)! (TODO: take non blurry photos, sorry). Both the pots have standoffs that get in the way. use sharp side cutters, wear eye protection, avoid curious pets/kids, and get rid of the little metal tabs shown in yellow below. While you're here, I tend to find the wiggly pins on the smaller pot a bit too wiggly for my taste - I flatten them very slightly with a gentle squeeze of some pliers. if you struggle to fit the pot into the board later, this'll help.
+Ok let's prepare the pots (aka knobs)! Both the pots have standoffs that get in the way. use sharp side cutters, wear eye protection, avoid curious pets/kids, and get rid of the little metal tabs shown in yellow below. While you're here, I tend to find the wiggly pins on the smaller pot a bit too wiggly for my taste - I flatten them very slightly with a gentle squeeze of some pliers. if you struggle to fit the pot into the board later, this'll help.
 
 <p float="left">
-  <img src="images/IMG_6321.jpeg" width="46%" />
-  <img src="images/IMG_6323.jpeg" width="45%" />
+  <img src="images/IMG_6355.jpeg" width="60%" />
+  <img src="images/IMG_6354.jpeg" width="38%" />
 </p>
 
 ### Placing the hardware (but not soldering it) 
@@ -86,7 +86,7 @@ Take a moment to marvel at your achievement! I mean, why not loosely screw the n
 ![Not Kittens](images/IMG_6351.jpeg)
 
 ### Hardware Victory
-My goodness! That was it! Just plug the digital board back into your freshly soldered analog board, forming a 3 level club sandwich of Bibness. Make sure you get it the right way around - as shown in the picture. If things are a little wonky, that's ok - look at mine! Wonky, but it works. That's the Bib way.
+My goodness! That was it! Double check you got *all* the solder joints above - are you SURE you got the 3 next to the white pins, or the two either side of the 6 pin SMD pin header? SURE? SURE? OK! - then just plug the digital board back into your freshly soldered analog board, forming a 3 level club sandwich of Bibness. Make sure you get it the right way around - as shown in the picture. If things are a little wonky, that's ok - look at mine! Wonky, but it works. That's the Bib way.
 
 ![Parts](images/IMG_6329.jpeg)
 ![Parts](images/IMG_6330.jpeg)
@@ -99,7 +99,9 @@ All that remains is to tighten the nuts, push the knobs onto the pot shafts, and
 
 Use a USB-C cable (not included) to plug your computer into Bib. You do **not** need Bib to be powered from eurorack for this step. 
 
-Bib should show up as a USB drive called `RPI-RP2` (on mac, you may find it under `/Volumes/RPI-RP2`). If it does not, try disconnecting the USB cable, holding down the *tiny* button on the digital board, just  opposite to the USB connector, while reconnecting the cable - then release the button. If it *still* doesn't show up, make sure your cable has data lines (and isn't just for charging). And if that's definitely ok - maybe check your soldering? 
+Bib should show up as a USB drive called `RPI-RP2` (on mac, you may find it under `/Volumes/RPI-RP2`). If it does not, try disconnecting the USB cable, holding down the *tiny* button on the digital board, just  opposite to the USB connector (hilighted below), while reconnecting the cable - then release the button. If it *still* doesn't show up, make sure your cable has data lines (and isn't just for charging). And if that's definitely ok - maybe check your soldering?
+
+![Parts](images/IMG_6352.jpeg)
 
 Assuming the drive shows up, drag and drop the `bib_xxx.uf2` (where xxx is a version number) onto the drive. It should upload the software, and after a second, the main knob will flash white and then glow a dim red. That's a good sign! that means your Bib is working! 
 
